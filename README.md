@@ -1,4 +1,4 @@
-# CSWin - Control Smartphone in Windows 📱💻
+# CSWin - Control Smartphone on Windows 📱💻
 
 Ferramenta leve e automática para espelhar e controlar seu Android no Windows via Scrcpy.
 
