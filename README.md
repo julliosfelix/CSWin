@@ -22,4 +22,4 @@ Ferramenta leve e automática para espelhar e controlar seu Android no Windows v
 4. O executável ficará na pasta dist/.
 
 Desenvolvido por Jullios Felix (Innovfly)
-"testado no Samsung Galaxy S23 (SM-S916B), Android 16, One UI 16, em 06/01/2026"
+"testado no Samsung Galaxy S23 (SM-S916B), Android 16, One UI 8.0, em 06/01/2026"
