@@ -1,0 +1,32 @@
+# executables - Executáveis
+*.exe
+*.dll
+*.so
+
+# OS - Sistema Operacional (Lixo de OS)
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Desktop.ini
+*.tmp
+
+# python - Python (Arquivos compilados)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual env - Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# build artifacts - PyInstaller
+dist/
+build/
+*.spec
+
+# IDE - VS Code
+.vscode/
+
+# Logs
+*.log
