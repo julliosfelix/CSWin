@@ -1,32 +1,34 @@
-# executables - Executáveis
-*.exe
-*.dll
-*.so
-
-# OS - Sistema Operacional (Lixo de OS)
-Thumbs.db
-.DS_Store
-ehthumbs.db
-Desktop.ini
-*.tmp
-
-# python - Python (Arquivos compilados)
+# --- Ambientes Virtuais e Python ---
 __pycache__/
 *.py[cod]
 *$py.class
-
-# virtual env - Ambientes Virtuais
 venv/
 .venv/
 env/
 
-# build artifacts - PyInstaller
-dist/
+# --- Distribuição e Build (PyInstaller) ---
 build/
+dist/
 *.spec
+*.manifest
 
-# IDE - VS Code
-.vscode/
+# --- Pasta de Montagem e Instalador (Pesados) ---
+Montagem_CSWin/
+Instalador_*.exe
 
-# Logs
+# --- Executáveis e Binários (Não subir pro GitHub) ---
+*.exe
+*.dll
+*.so
+
+# --- Configurações Locais e Logs ---
 *.log
+*.tmp
+.vscode/
+config.txt
+
+# --- Lixo de Sistema Operacional (Windows/Mac) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
